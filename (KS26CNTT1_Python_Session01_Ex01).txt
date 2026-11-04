@@ -1,0 +1,16 @@
+Bài 5: Thiết kế trí tuệ cho Hệ thống gợi ý Netflix
+Phần 1: Thiết kế theo mô hình DIKW
+Data – Dữ liệu: Hệ thống thu thập dữ liệu như: người dùng bấm Play phim nào, thời gian xem, thể loại phim, thời gian xem và thiết bị sử dụng.
+Information – Thông tin: Từ dữ liệu trên, hệ thống xác định được ngữ cảnh. Ví dụ: người dùng thường xem phim hoạt hình vào buổi tối và xem trên TV.
+Knowledge – Kiến thức: AI phân tích lịch sử xem và tìm ra sở thích của người dùng. Ví dụ: người dùng có xu hướng thích phim hoạt hình và phim hài.
+ Wisdom – Trí tuệ: Hệ thống dựa vào kết quả phân tích để quyết định nên gợi ý phim nào và hiển thị vào thời điểm nào. Ví dụ: khi người dùng vào Netflix lúc 20h, hệ thống đưa phim hoạt hình phù hợp lên Banner.
+Click → Data → Information → Knowledge → Wisdom → Hiển thị Banner.
+Phần 2: Quy trình khi bấm "Play"
+Người dùng bấm Play, hệ thống ghi nhận hành động.
+Hệ thống kết hợp với lịch sử xem để hiểu sở thích.
+AI phân tích và dự đoán các phim người dùng có thể thích.
+Hệ thống lọc các phim không phù hợp.
+Chọn phim có mức độ phù hợp cao nhất.
+Hiển thị phim đó trên Banner/trang chủ.
+Edge Case – Trẻ em
+Nếu đang sử dụng hồ sơ trẻ em, hệ thống phải kiểm tra độ tuổi trước khi gợi ý. Những phim kinh dị hoặc nội dung không phù hợp sẽ bị loại bỏ, dù trẻ đã từng click hoặc xem nội dung đó.
